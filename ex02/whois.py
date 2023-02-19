@@ -7,18 +7,26 @@
 #    By: 0x0584 <archid-@1337.student.ma>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/18 21:21:35 by 0x0584            #+#    #+#              #
-#    Updated: 2023/02/18 23:12:55 by 0x0584           ###   ########.fr        #
+#    Updated: 2023/02/19 01:09:14 by 0x0584           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 from sys import argv
-from typing import List
-import numpy as np
 
-def arr_to_str(arr: List[str]):
-    return ''.join(arr)
+def ascii_to_integer(s: str):
+    try:
+        n: int = int(s)
+        return n
+    except ValueType:
+        return None
 
 if __name__ == '__main__':
     argc: int = len(argv)
-    assert argc == 2
-    reversed_str = arr_to_str(np.flipud([c for c in argv[1]]))
-    print(arr_to_str([c.upper() if c.islower() else c.lower() for c in reversed_str]))
+    assert argc == 2, "more than one argument was provided"
+    n = ascii_to_integer(argv[1]);
+    assert n is not None, "argument is not an integer"
+    if n == 0:
+        print("I'm Zero.")
+    elif n % 2 == 0:
+        print("I'm Even")
+    else:
+        print("I'm Odd.")
