@@ -7,12 +7,12 @@
 #    By: 0x0584 <archid-@1337.student.ma>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/18 21:21:35 by 0x0584            #+#    #+#              #
-#    Updated: 2023/02/19 02:38:51 by 0x0584           ###   ########.fr        #
+#    Updated: 2023/02/20 19:56:09 by archid           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 from sys import argv
 
-kata = (2019, 9, 25, 3, 30) # Put this at the top of your kata02.py file
+kata = (2019, 9, 25, 3, 30)
 
 if __name__ == '__main__':
     year, day, month, hrs, mins = kata

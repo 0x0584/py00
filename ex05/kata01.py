@@ -7,12 +7,12 @@
 #    By: 0x0584 <archid-@1337.student.ma>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/18 21:21:35 by 0x0584            #+#    #+#              #
-#    Updated: 2023/02/19 02:34:14 by 0x0584           ###   ########.fr        #
+#    Updated: 2023/02/20 19:55:33 by archid           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 from sys import argv
 
-kata = {                  # Put this at the top of your kata01.py file
+kata = {
     'Python': 'Guido van Rossum',
     'Ruby': 'Yukihiro Matsumoto',
     'PHP': 'Rasmus Lerdorf',

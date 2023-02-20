@@ -1,3 +1,0 @@
-- conde & pip https://stackoverflow.com/questions/20994716/
-- https://unix.stackexchange.com/questions/60034/
-- https://lxr.linux.no/#linux+v2.6.31/Documentation/devices.txt

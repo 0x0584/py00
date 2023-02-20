@@ -2,4 +2,4 @@
 - conda list | grep 'numpy '
 - conda remove numpy
 - conda install numpy
-- pip freeze > requirements.txt
+- pip list --format=freeze > requirements.txt

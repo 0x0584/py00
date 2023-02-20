@@ -7,9 +7,10 @@
 #    By: 0x0584 <archid-@1337.student.ma>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/18 21:21:35 by 0x0584            #+#    #+#              #
-#    Updated: 2023/02/19 01:48:19 by 0x0584           ###   ########.fr        #
+#    Updated: 2023/02/20 19:52:28 by archid           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
 from sys import argv
 
 def ascii_to_integer(s: str):
@@ -27,6 +28,6 @@ if __name__ == '__main__':
     if n == 0:
         print("I'm Zero.")
     elif n % 2 == 0:
-        print("I'm Even")
+        print("I'm Even.")
     else:
         print("I'm Odd.")
